@@ -1,0 +1,36 @@
+/ * 1.1 * /pregunta 1
+function  operacion ( ) {
+    var  n1  =  5 ;
+    var  n2  =  5 ;
+    suma  =  n1  +  n2 ;
+    resta  =  n1  -  n2 ;
+    multiplicacion  =  n1 * n2 ;
+    división  =  n1 / n2 ;
+    resto  =  n1 % n2 ;
+
+    consola . log ( "la suma es:"  +  suma ) ;
+    consola . log ( "la resta es:"  + resta ) ;
+    consola . log ( "la multiplicacion es:"  +  multiplicacion ) ;
+    consola . log ( "la division es:"  +  division ) ;
+    consola . log ( "el resto es:"  +  resto ) ;
+
+}
+/ * 1.2 * /
+función  bienvenido ( ) {
+
+    var  nombre  =  "Fernando"
+    consola . log ( "Bienvenido"  +  nombre ) ;
+}
+/ * 1.3 * /
+función  impuesto ( ) {
+    tot  =  100 ;
+    subtot  =  tot / 1,18 ;
+    igv  =  subtot * 0.18 ;
+
+    consola . log ( "el total es:"  +  tot ) ;
+    consola . log ( "el subtotal es:"  +  subtot ) ;
+    consola . log ( "el IGV es:"  +  igv ) ;
+
+
+
+}
