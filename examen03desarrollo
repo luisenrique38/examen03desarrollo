@@ -1,0 +1,258 @@
+/ * 1.1 * /pregunta 1
+function  operacion ( ) {
+    var  n1  =  5 ;
+    var  n2  =  5 ;
+    suma  =  n1  +  n2 ;
+    resta  =  n1  -  n2 ;
+    multiplicacion  =  n1 * n2 ;
+    división  =  n1 / n2 ;
+    resto  =  n1 % n2 ;
+
+    consola . log ( "la suma es:"  +  suma ) ;
+    consola . log ( "la resta es:"  + resta ) ;
+    consola . log ( "la multiplicacion es:"  +  multiplicacion ) ;
+    consola . log ( "la division es:"  +  division ) ;
+    consola . log ( "el resto es:"  +  resto ) ;
+
+}
+/ * 1.2 * /
+función  bienvenido ( ) {
+
+    var  nombre  =  "Fernando"
+    consola . log ( "Bienvenido"  +  nombre ) ;
+}
+/ * 1.3 * /
+función  impuesto ( ) {
+    tot  =  100 ;
+    subtot  =  tot / 1,18 ;
+    igv  =  subtot * 0.18 ;
+
+    consola . log ( "el total es:"  +  tot ) ;
+    consola . log ( "el subtotal es:"  +  subtot ) ;
+    consola . log ( "el IGV es:"  +  igv ) ;
+
+
+
+}
+
+pregunta 2
+function  op1 ( ) {
+
+    var  n1  =  10 ;
+    var  n2  =  5 ;
+    var  resul ;
+
+    si ( resultado  >  10 ) {
+        consola . log ( "el resultado es mayor que 10" )
+    } más {
+        consola . log ( "el resultado es menor que 10" )
+    }
+
+}
+
+function  op2 ( ) {
+    var  n3  =  10 ;
+
+    para ( i  =  0 ;  i < n3  ;  i ++  ) {
+        consola . log ( i ) ;
+    }
+
+}
+function  op3 ( ) {
+    cont  =  0 ;
+
+    while ( cont  <  5 ) {
+        cont ++  ; 
+        consola . log ( cont ) ;
+    }
+}
+pregunta 3
+función  uno ( ) {
+    consola . log ( "Mesa 1" ) ;
+}
+
+function  dos ( ) {
+    consola . log ( "Mesa 2" ) ;
+}
+
+function  tres ( ) {
+    consola . log ( "Mesa 3" ) ;
+}
+
+function  cuatro ( ) {
+    consola . log ( "Mesa 4" ) ;
+}
+
+function  cinco ( ) {
+    consola . log ( "Mesa 5" ) ;
+}
+
+función  seis ( ) {
+    consola . log ( "Mesa 6" ) ;
+}
+
+función  siete ( ) {
+    consola . log ( "Mesa 7" ) ;
+}
+
+function  ocho ( ) {
+    consola . log ( "Mesa 8" ) ;
+}
+
+función  nueve ( ) {
+    consola . log ( "Mesa 9" ) ;
+}
+
+función  diez ( ) {
+    consola . log ( "Mesa 10" ) ;
+}
+pregunta 4
+function  vehiculos ( ) {
+    var  autos  =  new  Array ( ) ;
+
+     var  AlfaRomero  =  nuevo  objeto ( ) ;
+    AlfaRomero . potencia = "78 - 170 CV" ;
+    AlfaRomero . consumo = "3,4 - 6,2 L / 100km" ;
+    AlfaRomero . maletero = "270 - 270 L.2" ;
+    AlfaRomero . plazas = "4" ;
+
+    var  Alpine  =  nuevo  objeto ( ) ;
+    Alpino . potencia = "78 - 170 CV" ;
+    Alpino . consumo = "3,4 - 6,2 L / 100km" ;
+    Alpino . maletero = "270 - 270 L.5" ;
+    Alpino . plazas = "2" ;
+
+    var  Audi  =  nuevo  objeto ( ) ;
+    Audi . potencia = "78 - 150 CV" ;
+    Audi . consumo = "3,4 - 6,2 L / 100km" ;
+    Audi . maletero = "270 - 270 L" ;
+    Audi . plazas = "2" ;
+
+    var  Bentley  =  nuevo  objeto ( ) ;
+    Bentley . potencia = "78 - 150 CV" ;
+    Bentley . consumo = "3,4 - 6,2 L / 100km" ;
+    Bentley . maletero = "270 - 270 L" ;
+    Bentley . plazas = "2" ;
+
+    var  BMW  =  nuevo  objeto ( ) ;
+    BMW . potencia = "78 - 150 CV" ;
+    BMW . consumo = "3,4 - 6,2 L / 100km" ;
+    BMW . maletero = "270 - 270 L" ;
+    BMW . plazas = "4" ;
+
+    var  Bugatti  =  nuevo  objeto ( ) ;
+    Bugatti . potencia = "78 - 150 CV" ;
+    Bugatti . consumo = "3,4 - 6,2 L / 100km" ;
+    Bugatti . maletero = "270 - 270 L" ;
+    Bugatti . plazas = "4" ;
+
+    var  BYD  =  nuevo  objeto ( ) ;
+    BYD . potencia = "78 - 150 CV" ;
+    BYD . consumo = "3,4 - 6,2 L / 100km" ;
+    BYD . maletero = "270 - 270 L" ;
+    BYD . plazas = "4" ;
+    
+    var  cadillac  =  nuevo  objeto ( ) ;
+    cadillac . potencia = "78 - 150 CV" ;
+    cadillac . consumo = "3,4 - 6,2 L / 100km" ;
+    cadillac . maletero = "270 - 270 L" ;
+    cadillac . plazas = "4" ;
+
+    var  Caterham  =  nuevo  objeto ( ) ;
+    Caterham . potencia = "78 - 150 CV" ;
+    Caterham . consumo = "3,4 - 6,2 L / 100km" ;
+    Caterham . maletero = "270 - 270 L" ;
+    Caterham . plazas = "4" ;
+
+    var  Chevrolet  =  nuevo  objeto ( ) ;
+    Chevrolet . potencia = "78 - 150 CV" ;
+    Chevrolet . consumo = "3,4 - 6,2 L / 100km" ;
+    Chevrolet . maletero = "270 - 270 L" ;
+    Chevrolet . plazas = "4" ;
+
+    var  Cupra  =  nuevo  objeto ( ) ;
+    Cupra . potencia = "78 - 150 CV" ;
+    Cupra . consumo = "3,4 - 6,2 L / 100km" ;
+    Cupra . maletero = "270 - 270 L" ;
+    Cupra . plazas = "4" ;
+
+    var  Dacia  =  nuevo  objeto ( ) ;
+    Dacia . potencia = "78 - 150 CV" ;
+    Dacia . consumo = "3,4 - 6,2 L / 100km" ;
+    Dacia . maletero = "270 - 270 L" ;
+    Dacia . plazas = "4" ;
+
+    var  Ferrari  =  nuevo  objeto ( ) ;
+    Ferrari . potencia = "78 - 150 CV" ;
+    Ferrari . consumo = "3,4 - 6,2 L / 100km" ;
+    Ferrari . maletero = "270 - 270 L" ;
+    Ferrari . plazas = "4" ;
+
+    var  Fiat  =  nuevo  objeto ( ) ;
+    Fiat . potencia = "78 - 150 CV" ;
+    Fiat . consumo = "3,4 - 6,2 L / 100km" ;
+    Fiat . maletero = "270 - 270 L" ;
+    Fiat . plazas = "4" ;
+
+    var  Ford  =  nuevo  objeto ( ) ;
+    Ford . potencia = "78 - 150 CV" ;
+    Ford . consumo = "3,4 - 6,2 L / 100km" ;
+    Ford . maletero = "270 - 270 L" ;
+    Ford . plazas = "4" ;
+    
+    var  Honda  =  nuevo  objeto ( ) ;
+    Honda . potencia = "panda 78 - 150 CV" ;
+    Honda . consumo = "3,4 - 6,2 L / 100km" ;
+    Honda . maletero = "270 - 270 L" ;
+    Honda . plazas = "2" ;
+
+    var  Hyundai  =  nuevo  objeto ( ) ;
+    Hyundai . potencia = "78 - 150 CV" ;
+    Hyundai . consumo = "3,4 - 6,2 L / 100km" ;
+    Hyundai . maletero = "270 - 270 L" ;
+    Hyundai . plazas = "4" ;
+
+    var  KIA  =  nuevo  objeto ( ) ;
+    KIA . potencia = "78 - 150 CV" ;
+    KIA . consumo = "3,4 - 6,2 L / 100km" ;
+    KIA . maletero = "270 - 270 L" ;
+    KIA . plazas = "4" ;
+
+    var  Jaguar  =  nuevo  objeto ( ) ;
+    Jaguar . potencia = "78 - 150 CV" ;
+    Jaguar . consumo = "3,4 - 6,2 L / 100km" ;
+    Jaguar . maletero = "270 - 270 L" ;
+    Jaguar . plazas = "4" ;
+
+    var  Nissan  =  nuevo  objeto ( ) ;
+    Nissan . potencia = "78 - 150 CV" ;
+    Nissan . consumo = "3,4 - 6,2 L / 100km" ;
+    Nissan . maletero = "270 - 270 L" ;
+    Nissan . plazas = "2" ;
+    
+    // unir array con el objeto
+
+    autos . empujar ( AlfaRomero ) ;
+    autos . empujar ( alpino ) ;
+    autos . empujar ( Audi ) ;
+    autos . empujar ( Bentley ) ;
+    autos . empujar ( BMW ) ;
+    autos . empujar ( Bugatti ) ;
+    autos . empujar ( BYD ) ;
+    autos . empujar ( cadillac ) ;
+    autos . empujar ( Caterham ) ;
+    autos . empujar ( Chevrolet ) ;
+    autos . empujar ( Cupra ) ;
+    autos . empujar ( Dacia ) ;
+    autos . empujar ( Ferrari ) ;
+    autos . empujar ( Fiat ) ;
+    autos . empujar ( Ford ) ;
+    autos . empujar ( Honda ) ;
+    autos . empujar ( Hyundai ) ;
+    autos . empujar ( KIA ) ;
+    autos . empujar ( Jaguar ) ;
+    autos . empujar ( Nissan ) ;
+
+    consola . log ( autos [ 1 ] . plazas ) ;
+
+}
